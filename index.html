@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credit Card Interest Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <h1>Credit Card Interest Calculator</h1>
+    <div class="input-group">
+      <label for="balance">Credit Card Balance (₹):</label>
+      <input type="number" id="balance" placeholder="Enter balance">
+    </div>
+    <div class="input-group">
+      <label for="interest">Annual Interest Rate (%):</label>
+      <input type="number" id="interest" placeholder="Enter interest rate">
+    </div>
+    <div class="input-group">
+      <label for="period">Payment Period (Months):</label>
+      <input type="number" id="period" placeholder="Enter period">
+    </div>
+    <button id="calculate">Calculate</button>
+    <div class="result">
+      <h2>Results</h2>
+      <p>Total Interest: <span id="total-interest">₹0.00</span></p>
+      <p>Total Amount to Pay: <span id="total-amount">₹0.00</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
