@@ -27,6 +27,6 @@ calculateButton.addEventListener('click', () => {
   const totalAmount = balance + totalInterest;
 
   // Display results
-  totalInterestOutput.textContent = `$${totalInterest.toFixed(2)}`;
-  totalAmountOutput.textContent = `$${totalAmount.toFixed(2)}`;
+  totalInterestOutput.textContent = `$₹{totalInterest.toFixed(2)}`;
+  totalAmountOutput.textContent = `$₹{totalAmount.toFixed(2)}`;
 });
